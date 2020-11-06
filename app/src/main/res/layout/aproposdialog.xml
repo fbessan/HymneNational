@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorWhite"
+    >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <TextView
+                 android:id="@+id/name"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Be-Charb Corporation"
+                 android:textColor="#121212"
+                 android:textStyle="bold"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+
+
+
+            <TextView
+                android:id="@+id/mobile_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+22995000291"
+                android:paddingRight="60dp"
+                android:layout_marginBottom="1dp"
+                />
+
+            <TextView
+                android:id="@+id/mobile_d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="+22997062416"
+                android:paddingRight="60dp"
+                android:layout_marginBottom="1dp"
+                />
+            <TextView
+                android:id="@+id/mobile_dj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="be-charb@gmail.com"
+                android:paddingRight="60dp"
+                android:layout_marginBottom="1dp"
+                />
+
+
+            <TextView
+                android:id="@+id/joigneznousj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cotonu, Bénin"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#121212"
+                android:layout_marginBottom="2dp"
+                />
+            <TextView
+                android:id="@+id/joigneznous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Novembre 2016"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="#121212"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+

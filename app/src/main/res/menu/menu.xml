@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_liste"
+        android:title="Liste"
+        android:icon="@mipmap/ic_navigation_apps"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_item_histoire"
+        android:title="Histoire"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:showAsAction="ifRoom"
+         />
+
+    <item android:id="@+id/menu_item_shared"
+        android:title="Partager"
+        android:icon="@android:drawable/ic_menu_share"
+        android:showAsAction="ifRoom"
+         />
+
+    <item android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom"
+        android:title="Réglage volume" />
+
+    <item android:id="@+id/action_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:showAsAction="ifRoom"
+        android:title="Aide" />
+
+    <item android:id="@+id/action_contact"
+        android:icon="@android:drawable/ic_menu_call"
+        android:showAsAction="ifRoom"
+        android:title="Contactez-Nous" />
+
+    <!--<item
+        android:id="@+id/empty"
+        android:title="Parametres"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@mipmap/ic_av_stop">
+
+        <menu>
+
+            <item android:id="@+id/action_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:showAsAction="ifRoom"
+                android:title="Reglage volume" />
+
+            <item android:id="@+id/action_help"
+                android:icon="@android:drawable/ic_menu_call"
+                android:showAsAction="ifRoom"
+                android:title="Nous Contactez" />
+
+        </menu>
+
+    </item>-->
+
+</menu>

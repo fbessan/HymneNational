@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Hymne National</string>
+
+    <string name="html_content">
+        <![CDATA[
+            <html>
+            <body style="text-align:justify;">
+            <h3> L\'Aube nouvelle</h3>
+            <p>L\'Aube nouvelle est l\'hymne national du Bénin. Il a été écrit et composé par l\'Abbé Gilbert Jean Dagnon et adopté à l\'indépendance de la République du Dahomey en 1960.</p>
+            <p>Quand en 1975 le Dahomey a été rebaptisé en République populaire du Bénin, l\'hymne national a été conservé, mais les occurrences des mots Dahomey et Dahoméen ont été remplacées dans le texte, respectivement, par Bénin et Béninois, ce qui explique que certains de ces alexandrins comptent à présent onze syllabes.</p>
+            <p><b>Biographie de L\'auteur : </b></p>
+            <p>Né le mercredi 18 août 1926, celui qui deviendra le Révérend Père Gilbert Dagnon commence sa formation au sacerdoce de janvier 1939 à décembre 1940 chez les petits clercs à Ouidah, avant d\'être admis au Petit Séminaire Sainte Jeanne d\'Arc de la cité en 1941.</p>
+            <p>Après avoir suivi des études de philosophie et de théologie, il est élevé à la dignité sacerdotale le 10 juillet 1955 par Mgr Louis Parisot puis devient vicaire de la cathédrale de Porto-Novo jusqu\'en 1960. C\'est cette année là qu\'il compose et écrit les paroles de l\'Aube nouvelle, choisi comme hymne national du Dahomey, future République du Bénin (en 1975). Le président de l\'Assemblée nationale félicite alors l\'Abbé Gilbert Jean Dagnon pour sa « preuve de tact et de conscience dans la poésie qui forme cet hymne ». Au début des années 1960, l\'auteur vit en France afin d\'y étudier les mathématiques et de cultiver son amour pour la musique, la poésie et l\'art dramatique. Il écrit quelques pièces, compose sept autres hymnes avant de revenir, cette fois comme enseignant puis Recteur, au Petit Séminaire Sainte Jeanne d\'Arc de Ouidah jusqu\'en 1974. Il rejoint alors Cotonou et la Cathédrale Notre dame de Miséricorde où il officie en tant que curé jusqu\'en 1992 puis la Paroisse Saint Jean Baptiste jusqu\'au 10 juillet 2005, date de sa retraite. Celui qui a également été, au cours de son ministère fécond, Supérieur ecclésiastique des Sœurs Oblates Catéchistes Petites Servantes des Pauvres (OCPSP), Directeur des Œuvres pontificales et missionnaires, et fondateur de plusieurs familles religieuses (Frères de Jésus-Christ, Filles de padre Pio) et qui était connu des Béninois comme un grand exorciste, s\'est éteint le 14 juin 2012 à Cotonou. </p>
+            <p></p>
+            <h3>Paroles</h3>
+            <ul>
+            <li>Premier couplet</li>
+            <p>Jadis à son appel, nos aïeux sans faiblesse</p>
+            <p>Ont su avec courage, ardeur, pleins d\'allégresse</p>
+            <p>Livrer au prix du sang des combats éclatants.</p>
+            <p>Accourez vous aussi, bâtisseurs du présent,</p>
+            <p>Plus forts dans l\'unité, chaque jour à la tâche,</p>
+            <p>Pour la postérité, construisez sans relâche.</p>
+            <p></p>
+            <p><b>Refrain</b></p>
+            <p>Enfants du Bénin, debout !</p>
+            <p>La liberté d\'un cri sonore</p>
+            <p>Chante aux premiers feux de l\'aurore;</p>
+            <p>Enfants du Bénin, debout !</p>
+            <p></p>
+            <li>Deuxième couplet</li>
+            <p>Quand partout souffle un vent de colère et de haine,</p>
+            <p>Béninois, sois fier, et d\'une âme sereine,</p>
+            <p>Confiant dans l\'avenir, regarde ton drapeau !</p>
+            <p>Dans le vert tu liras l\'espoir du renouveau,</p>
+            <p>De tes aïeux le rouge évoque le courage;</p>
+            <p>Des plus riches trésors le jaune est le présage.</p>
+            <p></p>
+            <p><b>Refrain</b></p>
+            <p>Enfants du Bénin, debout !</p>
+            <p>La liberté d\'un cri sonore</p>
+            <p>Chante aux premiers feux de l\'aurore;</p>
+            <p>Enfants du Bénin, debout !</p>
+            <p></p>
+            <li>Troisième couplet</li>
+            <p>Tes monts ensoleillés, tes palmiers, ta verdure,</p>
+            <p>Cher Bénin, partout font ta vive parure.</p>
+            <p>Ton sol offre à chacun la richesse des fruits.</p>
+            <p>Bénin, désormais que tes fils tous unis</p>
+            <p>D\'un fraternel élan partagent l\'espérance</p>
+            <p>De te voir à jamais heureux dans l\'abondance.</p>
+            <p></p>
+            <p><b>Refrain</b></p>
+            <p>Enfants du Bénin, debout !</p>
+            <p>La liberté d\'un cri sonore</p>
+            <p>Chante aux premiers feux de l\'aurore;</p>
+            <p>Enfants du Bénin, debout !</p>
+            <p></p>
+            </ul>
+            <p></p>
+            </body>
+            </html>
+        ]]>
+    </string>
+
+    <string name="html_content_aide">
+        <![CDATA[
+            <html>
+            <body style="text-align:justify;">
+            <h3> Comment apprendre l\'Hymne National</h3>
+            <p>En haut à la droite du nom de l\'application - Hymne National vous trouverez 2 boutons menus.</p>
+            <ul>
+            <li>Galerie: (Bouton grille) Elle contient vos enregistrements précédents.</li>
+            <li>Ce menu d\'options comporte 4 sous menus:
+            <ul>
+            <li>Menu Histoire: Ceci affiche une page qui raconte l\'histoire de l\'hymne natinal du Bénin l\'aube nouvelle et de son auteur. Vous y trouverez aussi les paroles de l\'hymne dans son intégralité.</li>
+            <li>Menu Partager: Ce menu permet de partager l\'application avec vos amis par divers canaux, WhatsApp, FaceBook, etc. Il s\'agit ici de parler de l\'application.</li>
+            <li>Menu Réglage Volume: Cela permet de régler le volume lorsque vous écoutez ou chantez.<br><b>NB: Pour chanter il est conseillé de réduire le son afin que la voix du chanteur soit plus nette.</b></li>
+            <li>Menu Contactez-Nous: C\'est une page qui affiche les contacts des auteurs de l\'application pour toute suggestion ou remarque.</li>
+            </ul>
+            </li>
+            <li>Bouton "Ecouter": Ce bouton vous permet d\'écouter une version chantée de l\'hymne national tout simplement.</li>
+            <li>Bouton "Chanter": En appuyant sur ce bouton, l\'instrumental de l\'hymne national commence à jouer avec les paroles qui défilent.</li>
+            </ul>
+            <p></p>
+            <p>Vous êtes invités à chanter pour faire un karaoké. Ceci est une façon pour vous d\'apprendre en vous amusant.</p>
+            <p>Vous pouvez arrêter l\'enregistrement à tout moment en appuyant sur le bouton pause qui s\'affiche. </p>
+            <p>Le résultat est enregistré dans la galerie pour que vous appréciez vos prouesses.</p>
+            </body>
+            </html>
+        ]]>
+    </string>
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:vumeter="http://schemas.android.com/apk/res-auto"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+
+                android:minHeight="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_gravity="center"
+                android:src="@drawable/drapeauecouteur"/>
+            
+            <LinearLayout
+                android:id="@+id/equalizer"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:layout_weight="1">
+
+                <io.gresse.hugo.vumeterlibrary.VuMeterView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="40dp"
+                    android:id="@+id/vumeter"
+                    vumeter:vumeter_stopSize="5dp"
+                    vumeter:vumeter_speed="30"
+                    vumeter:vumeter_blockNumber="8"
+                    vumeter:vumeter_blockSpacing="20dp"
+                    vumeter:vumeter_backgroundColor="@color/colorRed"
+                    vumeter:vumeter_startOff="false"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorYellow" />
+
+            <TextSwitcher
+
+                android:id="@+id/textSwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:padding="30dp"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:id="@+id/textaube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:text="L'aube Nouvelle"
+                android:padding="30dp"
+                android:textStyle="normal"
+                android:textSize="24sp" />
+
+
+            <LinearLayout
+                android:id="@+id/textswitch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:background="@color/colorWhite">
+
+
+
+            </LinearLayout>
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="#fff"
+                android:layout_weight="1">
+
+
+                <Button
+                    android:id="@+id/btn_ecouter_hide"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Couper"
+                    android:background="@color/colorPrimary"
+                    android:drawableLeft="@mipmap/ic_av_stop"
+                    android:drawablePadding="6dp"
+                    android:gravity="left|center"
+                    android:height="60dp"
+                    android:padding="6dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_ecouter"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ecouter"
+                    android:background="@color/colorPrimary"
+                    android:drawableLeft="@mipmap/ic_av_play_arrow"
+                    android:drawablePadding="6dp"
+                    android:gravity="left|center"
+                    android:height="60dp"
+                    android:padding="6dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="@color/colorPrimaryDark" />
+
+
+                <Button
+                    android:id="@+id/btn_apprendre_hide"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Couper"
+                    android:background="@color/colorPrimary"
+                    android:drawableLeft="@mipmap/ic_av_stop"
+                    android:drawablePadding="6dp"
+                    android:gravity="left|center"
+                    android:height="60dp"
+                    android:padding="6dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/btn_apprendre"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chanter"
+                    android:background="@color/colorPrimary"
+                    android:drawableLeft="@mipmap/ic_av_mic"
+                    android:drawablePadding="6dp"
+                    android:gravity="left|center"
+                    android:height="60dp"
+                    android:padding="6dp"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
